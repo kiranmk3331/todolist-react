@@ -23,7 +23,7 @@ function List({ todos, updateTodo, deleteTodo }) {
         type="checkbox"
         checked={todo.completed}
       />
-      <h4 className={todo.completed ? "completed": ""}>{todo.text} </h4>
+      <h4 className={todo.completed ? "completed": ""}>{todo.title} </h4>
       <XOctagon onClick={() => deleteTodo(todo.id)} />
     </div>
   ));

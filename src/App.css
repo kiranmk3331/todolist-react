@@ -1,3 +1,7 @@
+body {
+  font-family: "Yeon Sung", cursive !important;
+}
+
 .completed {
   text-decoration: line-through;
 }
@@ -9,6 +13,19 @@
 .form button {
   margin-left: 10px;
 }
-body {
-  font-family: "Yeon Sung", cursive !important;
+
+.full-page {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.heading {
+  text-align: center;
 }
